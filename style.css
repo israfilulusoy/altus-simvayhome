@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imageSlider {
+  height: 60vh;
+}
+
+body {
+  padding-top: 50px;
+  overflow-x: hidden;
+}
+
+.aboutus {
+  background-color: #f2f2f2;
+}
+
+.bracket {
+  border: none;
+  border-top: 3px solid #080808;
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.igray {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.iwhite {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid white;
+  background-color: white;
+}
+
+.teamCard > img:hover {
+  opacity: 0.8;
+}
+
+.images {
+  background-color: #f2f2f2;
+}
+
+.figure:hover {
+  opacity: 0.6;
+}
+
+.text {
+  max-width: 600px;
+}
+
+.navBar {
+  background-color: #d63384;
+}
+
+.header .navBar .logo img {
+  float: left;
+  margin-right: 1px;
+}
+
+.navbar-nav > li > a {
+  color: white;
+}
+
+#navbarNav {
+  width: 50%;
+  background-color: #947c7c;
+}
+
+#fw-bold {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  .imageSlider {
+    width: 100%;
+    height: 20%;
+  }
+  .navBar {
+    width: 100%;
+    height: auto;
+  }
+  .maps {
+    width: auto;
+    height: auto;
+  }
+  #navbarNav {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .imageSlider {
+    width: 100%;
+    height: 20%;
+  }
+  .navBar {
+    width: 100%;
+    height: auto;
+  }
+  .maps {
+    width: auto;
+    height: auto;
+  }
+  #navbarNav {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .imageSlider {
+    width: 100%;
+    height: 20%;
+  }
+  .navBar {
+    width: 100%;
+    height: auto;
+  }
+  #navbarNav {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .imageSlider {
+    width: 100%;
+    height: 100vh;
+  }
+  .navBar {
+    width: 100%;
+    height: auto;
+  }
+  #navbarNav {
+    width: 30%;
+  }
+}
